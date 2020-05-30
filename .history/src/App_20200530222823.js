@@ -9,7 +9,7 @@ export default class App extends Component {
       <div className="container">
         <div className="row">
           <TodoInput />
-          <TodoList />
+          <TodoInput />
         </div>
       </div>
     )
