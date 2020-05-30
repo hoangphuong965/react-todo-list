@@ -41,7 +41,7 @@ export default class App extends Component {
               editItem={this.state.editItem}
             />
             <TodoList
-              items={this.state.items}
+              item={this.state.item}
               handleEdit={this.handleEdit}
               handleDelete={this.handleDelete}
               clearList={this.clearList}

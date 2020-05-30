@@ -34,18 +34,8 @@ export default class App extends Component {
         <div className="row">
           <div className="col-10 mx-auto col-md-8 mt-5">
             <h3 className="text-capitalize text-center">todo input</h3>
-            <TodoInput
-              item={this.state.item}
-              handleChange={this.handleChange}
-              handleSubmit={this.handleSubmit}
-              editItem={this.state.editItem}
-            />
-            <TodoList
-              items={this.state.items}
-              handleEdit={this.handleEdit}
-              handleDelete={this.handleDelete}
-              clearList={this.clearList}
-            />
+            <TodoInput iem/>
+            <TodoList />
           </div>
         </div>
       </div>

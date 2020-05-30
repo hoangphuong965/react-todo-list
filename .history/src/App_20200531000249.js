@@ -38,13 +38,11 @@ export default class App extends Component {
               item={this.state.item}
               handleChange={this.handleChange}
               handleSubmit={this.handleSubmit}
-              editItem={this.state.editItem}
             />
-            <TodoList
-              items={this.state.items}
+            <TodoList 
               handleEdit={this.handleEdit}
               handleDelete={this.handleDelete}
-              clearList={this.clearList}
+              clearList={}
             />
           </div>
         </div>
